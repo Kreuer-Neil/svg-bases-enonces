@@ -13,3 +13,33 @@
 /*
 Ajoutez les règles de style nécessaires pour rendre le SVG responsive
 */
+
+svg {
+    
+}
+
+circle{
+    fill: none;
+    stroke: #008B6F;
+    stroke-width: 7px;
+}
+
+line{
+    stroke: #00392D;
+    stroke-width: 2px;
+}
+
+text{
+    text-anchor: middle;
+    font-family: luckiest_guyregular;
+    font-size: 60px;
+    fill: #F6F7F3;
+    stroke: #00392D;
+    stroke-width: 3px;
+}
+
+polygon{
+    fill: #008B6F;
+    stroke: #00392D;
+    stroke-width: 2px;
+}

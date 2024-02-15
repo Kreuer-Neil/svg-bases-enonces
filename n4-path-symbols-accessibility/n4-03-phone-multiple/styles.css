@@ -4,3 +4,39 @@
 	2. Dimensionnez le téléphone du haut à 10% de la taille de son parent
 	3. Dimensionnez le téléphone du bas à 30% de la taille de son parent 
  */
+
+body{
+    background-color: lightgrey;
+}
+
+svg{
+    width: 50vw;
+    height: auto;
+}
+
+rect.screen{
+    fill: black;
+}
+
+rect{
+    fill: white;
+}
+
+circle{
+    fill: white;
+    stroke: black;
+    stroke-width: 0.5;
+}
+
+circle:hover{
+    animation: animating 2s infinite;
+    transform-origin: center;
+}
+
+@keyframes animating {
+    0%{transform: scale(1); }
+    50% {transform: scale(0.5); }
+    100%{transform: scale(1); }
+}
+
+

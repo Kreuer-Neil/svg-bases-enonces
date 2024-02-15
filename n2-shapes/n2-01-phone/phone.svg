@@ -15,3 +15,10 @@ Vous avez aussi besoin de définir deux attributs,
 
 <!-- N’oubliez pas les balises title et desc pour l’accessibilité -->
 
+<svg width="60" height="100"
+     xmlns="http://www.w3.org/2000/svg" version="1.1"
+     fill="white">
+    <rect x="10" y="15" width="40" height="60" rx="5" ry="7"></rect>
+    <rect x="13" y="18" width="34" height="47" rx="5" fill="black"></rect>
+    <circle cx="30" cy="70" r="3" fill="none" stroke="black" stroke-width="0.5"></circle>
+</svg>
